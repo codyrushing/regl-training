@@ -1,0 +1,26 @@
+{
+  "name": "regl-training",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "budo ./chapters/01/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "regl": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-es6-promise": "^1.1.1",
+    "babel-plugin-extensible-destructuring": "^4.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "budo": "^10.0.4",
+    "yargs": "^10.0.3"
+  }
+}
