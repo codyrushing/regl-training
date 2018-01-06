@@ -17,10 +17,12 @@
     "babel-core": "^6.26.0",
     "babel-plugin-es6-promise": "^1.1.1",
     "babel-plugin-extensible-destructuring": "^4.1.0",
+    "babel-plugin-glslify": "^2.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babelify": "^8.0.0",
     "budo": "^10.0.4",
+    "glslify": "^6.1.0",
     "yargs": "^10.0.3"
   }
 }

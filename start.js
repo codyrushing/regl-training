@@ -1,5 +1,6 @@
 const budo = require('budo')
 const babelify = require('babelify')
+const glslify = require('glslify/transform')
 
 const { path, live, port } = require('yargs').argv
 
@@ -15,7 +16,7 @@ budo(
     open: typeof open === 'undefined' ? true : open,
     port: port || 8000,
     browserify: {
-      transform: babelify,
+      transform: [babelify, glslify],
       debug: true
     }
   }

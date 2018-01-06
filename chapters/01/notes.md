@@ -15,3 +15,6 @@
   * __`props`__ - user-defined vars that are passed into the regl draw command
 
 `frame()` - runs the animation on `requestAnimationFrame` - basically a shortcut for running a continuous animation.
+
+### Questions?
+How to do the positioning calculations inside the shader instead of the JS wrapper code?  It would seem to require that it keep the previous values in memory somehow.
